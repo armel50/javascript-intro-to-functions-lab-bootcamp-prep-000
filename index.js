@@ -17,6 +17,10 @@ function isUpperCase(string){
   return string === string.toUpperCase;
 }
 
+function isLowerCase(string){
+  return string === string.toUpperCase;
+}
+
 function sayHiToGrandma(string){
   if(string.toLowerCase()){
     return  "I can't hear you!" ;
